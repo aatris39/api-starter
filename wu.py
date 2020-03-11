@@ -1,8 +1,11 @@
-d = {
-  b = 30,
-  c = [5, 3, 4, 2, 0],
-  a = 45,
-}
+import random
 
-hello = d["c"][3]
-world = d["a"]
+nums = []
+
+for i in range(100):
+  n = random.randint(1, 4)
+  nums.append(n)
+
+for number in nums:
+  if number == 1:
+    print("Success!")
